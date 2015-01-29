@@ -1,16 +1,44 @@
+/* Global*/
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+/* Nav */
+
+/* Bio */
+
 h1 {
-	color: orange;
+	color: #A30018;
+	text-align: center;
+}
+h1 {
+	color: #A30018;
+	text-align: center;
+}
+h1 {
+	color: #A30018;
+	text-align: center;
+}
+h1 {
+	color: #332828;
+	text-align: center;
+}
+h1 {
+	color: #A30018;
 	text-align: center;
 }
 
 body {
 	text-align: center;
+	content: #332828
 }
 
 div {
-	background: orange;
+	background: white;
 	padding: 50px;
 	margin: 0% 10% 0% 10%;
 }
 
 /* font-size: 5.24545465 /* 26px/16px  */
+/* #A30018 #332828 #665151 #CCA3A3 #EEBEBE */
