@@ -1,44 +1,23 @@
-/* Global*/
+ /*Global*/
 
 body {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 /* Nav */
 
 /* Bio */
 
-h1 {
-	color: #A30018;
-	text-align: center;
-}
-h1 {
-	color: #A30018;
-	text-align: center;
-}
-h1 {
-	color: #A30018;
-	text-align: center;
-}
-h1 {
-	color: #332828;
-	text-align: center;
-}
-h1 {
-	color: #A30018;
-	text-align: center;
-}
+/* Main Styles*/
 
-body {
-	text-align: center;
-	content: #332828
-}
+.main-header {
+	padding-top: 100px;
+	height: 500px; 
+	background: white url('../img/heading.png') no-repeat center;
+	background-size: 10%;
+} 
 
-div {
-	background: white;
-	padding: 50px;
-	margin: 0% 10% 0% 10%;
-}
+
 
 /* font-size: 5.24545465 /* 26px/16px  */
-/* #A30018 #332828 #665151 #CCA3A3 #EEBEBE */
+/* RED CHOCOLATE #A30018 #332828 #665151 #CCA3A3 #EEBEBE 
