@@ -1,4 +1,4 @@
- /* font-size: 5.24545465 /* 26px/16px  */
+ /* font-size: ... /* 26px/16px = intended size/1em  */
 /* RED CHOCOLATE #A30018 #332828 #665151 #CCA3A3 #EEBEBE */
 
  /*Global*/
@@ -51,14 +51,25 @@ h3 {
 }
 
 p {
-	font-size: 2em;
+	font-size: 1.25em; /* 20px/16px  */
 }
+
+ul {
+	font-size: 1.25em; /* 20px/16px  */
+}
+
+ul.bullet {
+	list-style-image: url(‘../img/bullet.png’);
+
+}
+
 
 .main-header {
 	padding-top: 100px;
 	height: 200px; 
 	background: transparent url('../img/heading.png') no-repeat center;
 	background-size: ;
-} 
+}
+
 
 
