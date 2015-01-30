@@ -1,6 +1,9 @@
  /* font-size: ... /* 26px/16px = intended size/1em  */
 /* RED CHOCOLATE #A30018 #332828 #665151 #CCA3A3 #EEBEBE */
 
+
+/* circles, xpadding, div color/gradient, footer, hierarchy */
+
  /*Global*/
 
 body {
@@ -8,7 +11,44 @@ body {
 	background: url('../img/paper.jpg');
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Nav */
+
+nav {
+  text-align: right;
+  padding: 10px 0;
+  margin: 0 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 150px 10px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  padding: 15px 10px;
+}
+
+
+/* links */
+a {
+  color: #fff;
+}
+
+nav a {
+  color: #48525c;
+}
+
+nav a.selected, nav a:hover {
+  color: #A30018;
+}
 
 /* Bio */
 
@@ -54,7 +94,7 @@ ul {
 }
 
 ul.minors {
-	list-style-type: none;
+	list-style: none;
 }
 
 ul.bullet {
@@ -65,11 +105,18 @@ ul.bullet {
 
 
 .main-header {
+  margin: 0 auto;
 	padding-top: 100px;
 	height: 200px; 
+  width: 50%;
 	background: transparent url('../img/heading.png') no-repeat center;
 	background-size: ;
 }
+
+.footer {
+  text-align: right;
+  padding: 60px 20px 30px;
+  border-bottom: 10px solid #48525c;
 
 
 
