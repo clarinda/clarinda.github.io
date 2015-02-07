@@ -1,0 +1,102 @@
+/* Layout for Style Tile
+Feel free to change */
+section {
+	margin: 20px 0;
+}
+
+body {
+	background: #EEEEEE;
+}
+
+
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 2px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 75px;
+	width: 75px;
+}
+
+.color-1 {
+	background: #A30018;
+}
+
+.color-2 {
+	background: #48525c;
+}
+
+.color-3 {
+	background: #332828;
+}
+
+.pattern-1 {
+	background: url('../img/paper.jpg');
+}
+
+.pattern-2 {
+	background: url('../img/gray_sand_@2X.png');
+}
+
+.pattern-3 {
+	background: url('../img/paper_fibers_@2X.png');
+}
+
+/* Set Your Own Typography */
+
+h1 {
+	font-size: 2em; /* 32px/16px  */
+  	color: #A30018;
+  	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.5em; /* 24px/16px  */
+  	font-weight: normal;
+}
+
+h3 {
+	font-size: 1.25em; /* 20px/16px  */
+  	color: #48525c;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+	color: #48525c;
+	text-decoration: none;
+}
+
+/* Other */
+
+.header {
+	margin: 100px 0 50px 20px;
+}
+
+.image {
+}
+
+.container {
+	margin: 0 auto;
+  	width: 840px;
+}
+
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 20px 0 0;
+}
+
+
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
