@@ -1,5 +1,5 @@
  /* font-size: ... /* 26px/16px = intended size/1em  */
-/* RED CHOCOLATE #A30018 #332828 #665151 #CCA3A3 #EEBEBE */
+/* RED CHOCOLATE #A30018 #332828 */
 
 
 /* circles, div color/gradient */
@@ -96,13 +96,11 @@ ul {
 	font-size: 1.25em; /* 20px/16px  */
 }
 
-ul.minors {
-	list-style: none;
-}
-
 ul.bullet {
 	list-style-image: url("../img/bullet.png");
 }
+
+
 
 /* Main Styles */
 
@@ -137,7 +135,58 @@ div {
   margin-bottom: -.25em;
 }
 
-/* Portfolio Specific */
+/* Portfolio Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.programs {
+  list-style: none;
+}
+
+.programs h2 {
+  line-height: 2em;
+}
+
+.MO::before {
+  content: url(../img/MO.png);
+  margin-right: 8px;
+}
+
+.AI::before {
+  content: url(../img/AI.png);
+  margin-right: 8px;
+}
+
+.PS::before {
+  content: url(../img/PS.png);
+  margin-right: 8px;
+}
+
+.ID::before {
+  content: url(../img/ID.png);
+  margin-right: 8px;
+}
+
+.HTML::before {
+  content: url(../img/HTML.png);
+  margin-right: 8px;
+}
+
+.CSS::before {
+  content: url(../img/CSS.png);
+  margin-right: 8px;
+}
+
+.GH::before {
+  content: url(../img/GH.png);
+  margin-right: 8px;
+}
+
+.ST::before {
+  content: url(../img/ST.png);
+  margin-right: 8px;
+}
+
+
+/* Portfolio Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 section {
   width: 940px;
@@ -155,6 +204,31 @@ section div {
 
 }
 
+/*.fullsize ul li {
+  float: left;
+  list-style: none;
+  margin: 5px;
+}*/
+
+.fullsize {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fullsize img {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+
+  opacity: 1;
+}
+
+.thumbnail:target {
+  background: blue;
+}
+
 .thumbnail {
 
   /* parent for caption */ 
@@ -165,7 +239,6 @@ section div {
   */   
 /*  height: 150px;
   width: 150px;*/
-  /* hide overflowing content */ 
   overflow: hidden;
 }
 
