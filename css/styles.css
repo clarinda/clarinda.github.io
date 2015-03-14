@@ -223,20 +223,20 @@ div {
 
 /* Portfolio Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-section {
-  width: 940px;
+.gallery {
+  max-width: 37.5%;
   margin: auto;
-
+  background: 
 }
 
 .thumbnail {
   background: white;
-  width: 200px;
-  height: 250px;
+  width: 20.8333%; 
+  height: 26.41666%;
+  display: inline-block;
   margin: 30px 56.66665px;
-  float: left;
   padding: 0;
-
+/*200x250*/
 }
 
 /*.fullsize ul li {
