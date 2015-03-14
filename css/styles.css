@@ -137,11 +137,15 @@ div {
 
 /* Resume Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-body::after {
+/*.clearfix::before,
+.clearfix::after {
   content: " ";
   display: table;
-  clear: both;
 }
+
+.clearfix::after {
+  clear: both;
+}*/
 
 .blocks {
   float: left;
@@ -219,13 +223,13 @@ body::after {
 
 /* Portfolio Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-.gallery {
+section {
   width: 940px;
   margin: auto;
   background: yellow;
 }
 
-.gallery div {
+.thumbnail {
   background: white;
   width: 200px;
   height: 250px;
@@ -266,8 +270,6 @@ body::after {
 
   opacity: 1;
 }
-
-
 
 .thumbnail:target {
   background: blue;
