@@ -8,6 +8,21 @@ body {
 	background: #EEEEEE;
 }
 
+.footer {
+  margin-top: 100px;
+  background: #48525c;
+  text-align: right;
+  padding: 1px 30px 15px;   
+}
+
+.footer p {
+  color: gray;
+  margin-bottom: -.25em;
+}
+
+.footer a {
+	color: #eee;
+}
 
 
 .color-1,

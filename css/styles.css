@@ -43,7 +43,7 @@ nav li {
 
 /* links */
 a {
-  color: #fff;
+  color: #eee;
 }
 
 nav a {
@@ -107,7 +107,7 @@ ul.bullet {
 
 div {
   background: radial-gradient(circle at top, white, #EEEEEE 80%);
-  width: 940px;
+/*  width: 940px;*/
   margin: 0 auto 50px;
   padding: 15px 125px;
   box-shadow: 0 15px 20px -12px rgba(0,0,0, .7);
@@ -137,18 +137,18 @@ div {
 
 /* Resume Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-/*.clearfix::before,
-.clearfix::after {
-  content: " ";
-  display: table;
+.container {
+  max-width: 80%;
+  margin: 2.5% 10% 0;
 }
 
-.clearfix::after {
-  clear: both;
-}*/
-
 .blocks {
-  float: left;
+  max-width: 50%;
+  display: inline-block;
+}
+
+.blocks:last-child {
+  float: right;
 }
 
 .programs h2 {
@@ -226,7 +226,7 @@ div {
 section {
   width: 940px;
   margin: auto;
-  background: yellow;
+
 }
 
 .thumbnail {
