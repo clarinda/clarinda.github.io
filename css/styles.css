@@ -137,6 +137,20 @@ div {
 
 /* Resume Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+body::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.blocks {
+  float: left;
+}
+
+.programs h2 {
+  line-height: 2em;
+}
+
 .programs {
   list-style: none;
   columns: 2;
@@ -144,60 +158,74 @@ div {
   -moz-columns: 2;
 }
 
-.programs h2 {
-  line-height: 2em;
-}
+/*.programs li:hover {
+  -webkit-filter: grayscale(0);
+}*/
+
+
 
 .MO::before {
-  content: url(../img/MO.png);
+  content: url(../img/icons/MO.png);
   margin-right: 8px;
+  -webkit-filter: grayscale(.75);
+}
+
+.MO::before:hover {
+  -webkit-filter: grayscale(1);
 }
 
 .AI::before {
-  content: url(../img/AI.png);
+  content: url(../img/icons/AI.png);
   margin-right: 8px;
+  -webkit-filter: grayscale(.75);
 }
 
 .PS::before {
-  content: url(../img/PS.png);
+  content: url(../img/icons/PS.png);
   margin-right: 8px;
+  -webkit-filter: grayscale(.75);
 }
 
 .ID::before {
-  content: url(../img/ID.png);
+  content: url(../img/icons/ID.png);
   margin-right: 8px;
+  -webkit-filter: grayscale(.75);
 }
 
 .HTML::before {
-  content: url(../img/HTML.png);
+  content: url(../img/icons/HTML.png);
   margin-right: 8px;
+  -webkit-filter: grayscale(.75);
 }
 
 .CSS::before {
-  content: url(../img/CSS.png);
+  content: url(../img/icons/CSS.png);
   margin-right: 8px;
+  -webkit-filter: grayscale(.75);
 }
 
 .GH::before {
-  content: url(../img/GH.png);
+  content: url(../img/icons/GH.png);
   margin-right: 8px;
+  -webkit-filter: grayscale(.75);
 }
 
 .ST::before {
-  content: url(../img/ST.png);
+  content: url(../img/icons/ST.png);
   margin-right: 8px;
+  -webkit-filter: grayscale(.75);
 }
 
 
 /* Portfolio Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-section {
+.gallery {
   width: 940px;
   margin: auto;
   background: yellow;
 }
 
-section div {
+.gallery div {
   background: white;
   width: 200px;
   height: 250px;
