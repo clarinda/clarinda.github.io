@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-	<article class="background">
 	<head>
 
 		<meta charset="utf-8">
@@ -11,101 +10,150 @@
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic' rel='stylesheet' type='text/css'>
 
+		<style>
+		 	#overlay {
+			    position: fixed;
+			    width: 100%;
+			    height: 100%;
+			    left: 0;
+			    top: 0;
+			    background: rgba(51,51,51,0.7);
+			    z-index: 1;
+
+			    display: none;
+		 	}
+
+		 	#overlay:target {
+				 z-index: -1;
+			}
+
+		 </style>
+
 	</head>
 
-	<body>
+	<div id="overlay"></div>
 
-		<header class="main-header">
+		<body>
 
-			<nav>
-		        <ul>
-		          <li><a href="index.html">Home</a></li>
-		          <li><a href="resume.html">Resume</a></li>
-		          <li><a href="portfolio.html" class="selected">Portfolio</a></li>
-		          <li><a href="contact.html">Contact</a></li>
-		        </ul>
-      		</nav>
+			<header class="main-header">
 
-		</header>
+				<nav>
+			        <ul>
+			          <li><a href="index.html">Home</a></li>
+			          <li><a href="resume.html">Resume</a></li>
+			          <li><a href="portfolio.html" class="selected">Portfolio</a></li>
+			          <li><a href="contact.html">Contact</a></li>
+			        </ul>
+	      		</nav>
 
-		<section>
+			</header>
 
-			<div class="thumbnail">
-			  <p>Caption Caption</p>
-			</div>
+			<section>
 
-			<div class="thumbnail">
-			  <p>Caption Caption</p>
-			</div>
+				<div class="thumbnail">
+					<a href="#full1">
+						<p>Magazine Spread</p>
+				  		<img src="img/portfolio/Easterner.gif">
+				  	</a>
 
-			<div class="thumbnail">
-			  <p>Caption Caption Caption Caption Caption Caption Caption Caption Caption Caption</p>
-			</div>
+				</div>
 
-			<div class="thumbnail">
-			  <p>Caption Caption</p>
-			</div>
+				<div class="thumbnail">
+				 	<a href="#full2">
+						<p>Magazine Spread</p>
+				  		<img src="img/portfolio/Teabaggin.gif">
+				  	</a>
+				</div>
 
-			<div class="thumbnail">
-			  <p>Caption Caption</p>
-			</div>
+				<div class="thumbnail">
+					<a href="#full3">
+						<p>Magazine Spread</p>
+				  		<img src="img/portfolio/Neil.gif">
+				  	</a>
+				</div>
 
-			<div class="thumbnail">
-			  <p>Caption Caption</p>
-			</div>
+				<div class="thumbnail">
+					<a href="#full4">
+						<p>Magazine Spread</p>
+				  		<img src="img/portfolio/Neil.gif">
+				  	</a>
+				</div>
 
-			<div class="thumbnail">
-			  <p>Caption Caption</p>
-			</div>
+				<div class="thumbnail">
+					<a href="#full5">
+						<p>Magazine Spread</p>
+				  		<img src="img/portfolio/Neil.gif">
+				  	</a>
+				</div>
 
-			<div class="thumbnail">
-			  <p>Caption Caption</p>
-			</div>
+				<div class="thumbnail">
+					<a href="#full6">
+						<p>Magazine Spread</p>
+				  		<img src="img/portfolio/Neil.gif">
+				  	</a>
+				</div>
 
-			<div class="thumbnail">
-			  <p>Caption Caption</p>
-			</div>
+				<div class="thumbnail">
+					<a href="#full7">
+						<p>Magazine Spread</p>
+				  		<img src="img/portfolio/Neil.gif">
+				  	</a>
+				</div>
 
-		</section>
+				<div class="thumbnail">
+					<a href="#full8">
+						<p>Magazine Spread</p>
+				  		<img src="img/portfolio/Neil.gif">
+				  	</a>
+				</div>
 
-			<div class="fullsize">
+				<div class="thumbnail">
+					<a href="#full9">
+						<p>Magazine Spread</p>
+				  		<img src="img/portfolio/Neil.gif">
+				  	</a>
+				</div>
 
-			  <ul>
-			    <li>
-			      <img src="img/portfolio/Neil.jpg" id="fullsize-1"/>
-			    </li>
-			    <li>
-			      <img src="http://placehold.it/200x300" id="fullsize-2" />
-			    </li>
-			    <li>
-			     <img src="http://placehold.it/200x300" id="fullsize-3" />     
-			    </li>
-			    <li>
-			      <img src="http://placehold.it/200x300" id="fullsize-4"/>
-			    </li>
-			    <li>
-			      <img src="http://placehold.it/200x300" id="fullsize-5" />
-			    </li>
-			    <li>
-			     <img src="http://placehold.it/200x300" id="fullsize-6" />     
-			    </li>
-			    <li>
-			      <img src="http://placehold.it/200x300" id="fullsize-7"/>
-			    </li>
-			    <li>
-			      <img src="http://placehold.it/200x300" id="fullsize-8" />
-			    </li>
-			    <li>
-			     <img src="http://placehold.it/200x300" id="fullsize-9" />     
-			    </li>
-			  </ul>
-			</div>
+			</section>
+
+				<div class="fullsize">
+
+				  <ul>
+				    <li>
+				      <img src="img/portfolio/Neil.jpg" id="fullsize-1"/>
+				    </li>
+				    <li>
+				      <img src="http://placehold.it/200x300" id="fullsize-2" />
+				    </li>
+				    <li>
+				     <img src="http://placehold.it/200x300" id="fullsize-3" />     
+				    </li>
+				    <li>
+				      <img src="http://placehold.it/200x300" id="fullsize-4"/>
+				    </li>
+				    <li>
+				      <img src="http://placehold.it/200x300" id="fullsize-5" />
+				    </li>
+				    <li>
+				     <img src="http://placehold.it/200x300" id="fullsize-6" />     
+				    </li>
+				    <li>
+				      <img src="http://placehold.it/200x300" id="fullsize-7"/>
+				    </li>
+				    <li>
+				      <img src="http://placehold.it/200x300" id="fullsize-8" />
+				    </li>
+				    <li>
+				     <img src="http://placehold.it/200x300" id="fullsize-9" />     
+				    </li>
+				  </ul>
+				</div>
 
 <!-- 			<div class="clearfix"></div> -->
 
 		
 
 
-	</body>
+		</body> 
 
 </html>
