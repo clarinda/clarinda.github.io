@@ -59,6 +59,7 @@ nav a.selected {
 
 nav a:hover {
     color: #A30018;
+    transition: .5s;
 }
 
 
@@ -220,7 +221,7 @@ div {
 /* Portfolio Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
-.overlay {
+/*.overlay {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -228,7 +229,6 @@ div {
   top: 0;
   background: rgba(51,51,51,0.7);
 
-/*  transition: opacity 2s;*/
   visibility: hidden;
   opacity: 0;
 }
@@ -240,7 +240,8 @@ div {
 
 .overlay:active {
   visibility: hidden;
-}
+}*/
+/* Cannot get overlay to work w/o JS */
 
 .gallery {
   max-width: 37.5%;
@@ -256,8 +257,6 @@ div {
   padding: 0;
 /*200x250*/
 
-/*  cursor: pointer;
-  transition: all 0.3s ease-out;*/
 }
 
 .fullsize {
@@ -278,55 +277,83 @@ div {
   display:block;
   margin: 0 auto;
 
-/*  visibility: hidden;
-  opacity: 0;*/
+  visibility: hidden;
+  opacity: 0;
 
-/*  transition: all 5s ease-in-out;*/
+  transition: all .5s;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
 }
 
 #full1:target {
   visibility: visible;
   opacity: 1;
+
+  transition: all .5s;
 }
 
 #full2:target {
   visibility: visible;
   opacity: 1;
+
+  transition: all .5s;
 }
 
 #full3:target {
   visibility: visible;
   opacity: 1;
+
+  transition: all .5s;
 }
 
 #full4:target {
   visibility: visible;
   opacity: 1;
+
+  transition: all .5s;
 }
 
 #full5:target {
   visibility: visible;
   opacity: 1;
+
+  transition: all .5s;
 }
 
 #full6:target {
   visibility: visible;
   opacity: 1;
+
+  transition: all .5s;
 }
 
 #full7:target {
   visibility: visible;
   opacity: 1;
+
+  transition: all .5s;
 }
 
 #full8:target {
   visibility: visible;
   opacity: 1;
+
+  transition: all .5s;
 }
 
 #full9:target {
   visibility: visible;
   opacity: 1;
+
+  transition: all .5s;
 }
 
 .thumbnail {
