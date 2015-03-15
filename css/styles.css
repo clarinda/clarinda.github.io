@@ -143,7 +143,7 @@ div {
 }
 
 .blocks {
-  max-width: 50%;
+  max-width: 48%;
   display: inline-block;
 }
 
@@ -172,10 +172,6 @@ div {
   content: url(../img/icons/MO.png);
   margin-right: 8px;
   -webkit-filter: grayscale(.75);
-}
-
-.MO::before:hover {
-  -webkit-filter: grayscale(1);
 }
 
 .AI::before {
@@ -223,6 +219,32 @@ div {
 
 /* Portfolio Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+
+#overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(51,51,51,0.7);
+
+  z-index: 1;
+  display: none;
+}
+
+/*#overlay {
+  display: block;
+}*/
+
+#overlay:active {
+  display: none;
+}
+
+#full1:active {
+  border: 10px blue;
+  z-index: 2;
+}
+
 .gallery {
   max-width: 37.5%;
   margin: auto;
@@ -252,11 +274,7 @@ div {
   transform: translate(-50%, -50%);
   background: white;
   box-shadow: none;
-  z-index: 2;
-
-  display: none;
-
-
+  z-index: 1;
 }
 
 .fullsize ul {
