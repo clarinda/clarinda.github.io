@@ -229,6 +229,8 @@ div {
   background: rgba(51,51,51,0.7);
 
   z-index: 1;
+  opacity: 1;
+
   display: none;
 }
 
@@ -237,18 +239,12 @@ div {
 }*/
 
 #overlay:active {
-  display: none;
-}
-
-#full1:active {
-  border: 10px blue;
-  z-index: 2;
+  opacity: 0;
 }
 
 .gallery {
   max-width: 37.5%;
   margin: auto;
-  background: 
 }
 
 .thumbnail {
@@ -274,7 +270,6 @@ div {
   transform: translate(-50%, -50%);
   background: white;
   box-shadow: none;
-  z-index: 1;
 }
 
 .fullsize ul {
@@ -286,11 +281,43 @@ div {
   display:block;
   margin: 0 auto;
 
+  opacity: 0;
+}
+
+#full1:target {
   opacity: 1;
 }
 
-.thumbnail:target {
-  background: blue;
+#full2:target {
+  opacity: 1;
+}
+
+#full3:target {
+  opacity: 1;
+}
+
+#full4:target {
+  opacity: 1;
+}
+
+#full5:target {
+  opacity: 1;
+}
+
+#full6:target {
+  opacity: 1;
+}
+
+#full7:target {
+  opacity: 1;
+}
+
+#full8:target {
+  opacity: 1;
+}
+
+#full9:target {
+  opacity: 1;
 }
 
 .thumbnail {
