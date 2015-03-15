@@ -220,7 +220,7 @@ div {
 /* Portfolio Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
-#overlay {
+.overlay {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -228,18 +228,18 @@ div {
   top: 0;
   background: rgba(51,51,51,0.7);
 
-  z-index: 1;
-  opacity: 1;
-
-  display: none;
+/*  transition: opacity 2s;*/
+  visibility: hidden;
+  opacity: 0;
 }
 
-/*#overlay {
-  display: block;
-}*/
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
 
-#overlay:active {
-  opacity: 0;
+.overlay:active {
+  visibility: hidden;
 }
 
 .gallery {
@@ -255,13 +255,10 @@ div {
   margin: 30px 56.66665px;
   padding: 0;
 /*200x250*/
-}
 
-/*.fullsize ul li {
-  float: left;
-  list-style: none;
-  margin: 5px;
-}*/
+/*  cursor: pointer;
+  transition: all 0.3s ease-out;*/
+}
 
 .fullsize {
   position: fixed;
@@ -272,7 +269,7 @@ div {
   box-shadow: none;
 }
 
-.fullsize ul {
+.fullsize ul li{
   list-style: none;
 }
 
@@ -281,42 +278,54 @@ div {
   display:block;
   margin: 0 auto;
 
-  opacity: 0;
+/*  visibility: hidden;
+  opacity: 0;*/
+
+/*  transition: all 5s ease-in-out;*/
 }
 
 #full1:target {
+  visibility: visible;
   opacity: 1;
 }
 
 #full2:target {
+  visibility: visible;
   opacity: 1;
 }
 
 #full3:target {
+  visibility: visible;
   opacity: 1;
 }
 
 #full4:target {
+  visibility: visible;
   opacity: 1;
 }
 
 #full5:target {
+  visibility: visible;
   opacity: 1;
 }
 
 #full6:target {
+  visibility: visible;
   opacity: 1;
 }
 
 #full7:target {
+  visibility: visible;
   opacity: 1;
 }
 
 #full8:target {
+  visibility: visible;
   opacity: 1;
 }
 
 #full9:target {
+  visibility: visible;
   opacity: 1;
 }
 
@@ -324,12 +333,6 @@ div {
 
   /* parent for caption */ 
   position: relative;
-  /* 
-    * set to any dimensions
-    * matched to size of image in this case
-  */   
-/*  height: 150px;
-  width: 150px;*/
   overflow: hidden;
 }
 
