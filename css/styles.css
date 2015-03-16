@@ -1,8 +1,4 @@
- /* font-size: ... /* 26px/16px = intended size/1em  */
-/* RED CHOCOLATE #A30018 #332828 */
-
-
-/* circles, div color/gradient */
+/* RED CHOCOLATE #A30018 #332828 BLUE #48525c*/
 
  /*Global*/
 
@@ -285,7 +281,9 @@ div {
   bottom: 0;
   left: 0;
   right: 0;
-  
+
+  box-shadow: 0 15px 20px -12px rgba(0,0,0, .7);
+  border-radius: 5px;
 
   visibility: hidden;
   opacity: 0;
@@ -300,7 +298,7 @@ div {
   font-size: 2em;
   font-weight: bold;
   text-decoration: none;
-  color: #A30018;
+  color: #48525c;
   visibility: visible;
 }
 
