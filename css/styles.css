@@ -161,54 +161,54 @@ div {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+  -webkit-filter: grayscale(.75);
 }
 
-/*.programs li:hover {
+.programs:hover {
   -webkit-filter: grayscale(0);
-}*/
-
+}
 
 
 .MO::before {
   content: url(../img/icons/MO.png);
   margin-right: 8px;
-  -webkit-filter: grayscale(.75);
+/*  -webkit-filter: grayscale(.75);*/
 }
 
 .AI::before {
   content: url(../img/icons/AI.png);
   margin-right: 8px;
-  -webkit-filter: grayscale(.75);
+/*  -webkit-filter: grayscale(.75);*/
 }
 
 .PS::before {
   content: url(../img/icons/PS.png);
   margin-right: 8px;
-  -webkit-filter: grayscale(.75);
+/*  -webkit-filter: grayscale(.75);*/
 }
 
 .ID::before {
   content: url(../img/icons/ID.png);
   margin-right: 8px;
-  -webkit-filter: grayscale(.75);
+/*  -webkit-filter: grayscale(.75);*/
 }
 
 .HTML::before {
   content: url(../img/icons/HTML.png);
   margin-right: 8px;
-  -webkit-filter: grayscale(.75);
+/*  -webkit-filter: grayscale(.75);*/
 }
 
 .CSS::before {
   content: url(../img/icons/CSS.png);
   margin-right: 8px;
-  -webkit-filter: grayscale(.75);
+/*  -webkit-filter: grayscale(.75);*/
 }
 
 .GH::before {
   content: url(../img/icons/GH.png);
   margin-right: 8px;
-  -webkit-filter: grayscale(.75);
+/*  -webkit-filter: grayscale(.75);*/
 }
 
 .ST::before {
