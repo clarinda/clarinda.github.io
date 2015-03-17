@@ -94,7 +94,7 @@ ul {
 	font-size: 1em; /* 20px/16px  */
 }
 
-ul.bullet {
+.bullet {
 	list-style-image: url("../img/bullet.png");
 }
 
@@ -121,6 +121,20 @@ div {
 	background-size: ;
 }
 
+.container {
+  max-width: 70%;
+  margin: 2.5% 15% 0;
+}
+
+.blocks {
+  max-width: 48%;
+  display: inline-block;
+}
+
+.blocks:last-child {
+  float: right;
+}
+
 .footer {
   margin-top: 100px;
   background: #48525c;
@@ -139,24 +153,21 @@ div {
 /* Home Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .salutation {
-  margin: 0 0 -.5em;
+  font-size: 2em; /* 32px/16px  */
+  color: #A30018;
+  line-height: 1em;
+}
+
+.blocks a {
+  color: #48525c;
+  transition: 1s;
+}
+
+.blocks a:hover {
+  color: #A30018;
 }
 
 /* Resume Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
-.container {
-  max-width: 70%;
-  margin: 2.5% 15% 0;
-}
-
-.blocks {
-  max-width: 48%;
-  display: inline-block;
-}
-
-.blocks:last-child {
-  float: right;
-}
 
 .programs h2 {
   line-height: 2em;
