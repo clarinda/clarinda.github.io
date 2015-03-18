@@ -452,6 +452,12 @@ div {
     -moz-columns: 1;
   }
 }
+/* eff you, clearfix */
+@media screen and (max-width: 1350px) {
+  .blocks {
+    padding: 15px 30px;
+  }
+}
 
 /* Tablet - Larger */
 
@@ -556,9 +562,6 @@ div {
     padding: 20px 11px;
   }
 
-  .blocks {
-    padding: 0;
-  }
   .container1 p {
     font-size: .75em;
   }
