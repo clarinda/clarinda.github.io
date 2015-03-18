@@ -431,21 +431,36 @@ div {
 /* Tablet - Larger */
 
 @media screen and (max-width: 1220px) {
+  .main-header {
+    width: 683.2px;
+    background-size: contain;
+  }  
   .blocks {
     max-width: 100%;
   }
   .blocks:last-child {
   float: none;
-}
+  }
+  div {
+    padding: 15px 125px;
+  }
+
   .programs {
+    margin-left: -40px;
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
   }
   .breathing-room {
-    padding-right: ;
+    padding-left: 75px;
   }
+
+  /*.thumbnail {
+    margin: 30px auto;
+  }*/
+
 }
+
 
 /* Tablet - Smaller*/ 
 
