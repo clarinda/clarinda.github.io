@@ -121,8 +121,8 @@ div {
 }
 
 .container1 {
-  max-width: 50%;
-  margin: 2.5% 25% 0;
+  max-width: 60%;
+  margin: 2.5% 20% 0;
 }
 
 .container2 {
@@ -171,12 +171,27 @@ div {
   color: #A30018;
 }
 
+#pic {
+  padding-top: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+#pic img {
+  box-shadow: 0 15px 20px -12px rgba(0,0,0, .7);
+  border-radius: 5px;
+
+  width: 100%;
+  height: auto;
+}
+
+
 /* Resume Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .breathing-room {
   padding-right: 0;
 }
-
 .programs h2 {
   line-height: 2em;
 }
@@ -288,6 +303,9 @@ div {
   transform: translate(-50%, -50%);
   background: white;
   box-shadow: none;
+
+  overflow: scroll;
+
   visibility: hidden;
 }
 
@@ -304,6 +322,7 @@ div {
   bottom: 0;
   left: 0;
   right: 0;
+  background-size: contain;
 
 /*  box-shadow: 0 15px 20px -12px rgba(0,0,0, .7);*/
   border-radius: 5px;
@@ -371,7 +390,6 @@ div {
 }
 
 .thumbnail {
-
   /* parent for caption */ 
   position: relative;
   overflow: hidden;
@@ -455,8 +473,8 @@ div {
     -webkit-columns: 2;
     -moz-columns: 2;
   }
-  .breathing-room {
-    padding-left: 75px;
+  .programs {
+    padding-left: 65px;
   }
 
   .gallery {
@@ -473,7 +491,22 @@ div {
   .main-header {
     width: 90%;
     height: 310px;
-}
+  }
+  nav {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  nav ul {
+    padding-left: 0;
+  }
+  nav a {
+    padding: 20px 13px;
+  }
+  nav a.selected {
+    background: transparent;
+  }
 
   div {
     padding: 15px 50px;
@@ -495,8 +528,31 @@ div {
 /* Mobile */
 
 @media screen and (max-width: 480px) {
-  body {
-    background: blue;
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.25em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  div {
+    padding: 15px 25px;
+  }
+  nav ul {
+    font-size: 1em;
+  }
+  nav a {
+    padding: 20px 11px;
+  }
+
+  .gallery {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .thumbnail {
+    margin: 30px 16px;
   }
 }
 
