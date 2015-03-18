@@ -413,21 +413,13 @@ div {
 /* Media Queries ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* Desktop - Smaller */
-@media screen and (min-width: 1951px) {
-  body {
-    background: orange;
-  }
-}
 
 @media screen and (max-width: 1950px) {
-  body {
- /*   background: purple;*/
-  }
   div {
     padding: 15px 50px;
   }
 }
-
+/* eff you, columns */
 @media screen and (max-width: 1610px) {
   .programs {
     columns: 1;
@@ -439,8 +431,19 @@ div {
 /* Tablet - Larger */
 
 @media screen and (max-width: 1220px) {
-  body {
-    background: red;
+  .blocks {
+    max-width: 100%;
+  }
+  .blocks:last-child {
+  float: none;
+}
+  .programs {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+  .breathing-room {
+    padding-right: ;
   }
 }
 
