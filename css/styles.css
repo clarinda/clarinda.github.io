@@ -169,12 +169,17 @@ div {
 
 /* Resume Specific ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
+.breathing-room {
+  padding-right: 0;
+}
+
 .programs h2 {
   line-height: 2em;
 }
 
 .programs {
   list-style: none;
+  margin-left: -20px;
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
@@ -408,36 +413,52 @@ div {
 /* Media Queries ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* Desktop - Smaller */
-
-/*@media screen and (max-width: 1950px) {
+@media screen and (min-width: 1951px) {
   body {
-    background: purple;
+    background: orange;
   }
-}*/
+}
+
+@media screen and (max-width: 1950px) {
+  body {
+ /*   background: purple;*/
+  }
+  div {
+    padding: 15px 50px;
+  }
+}
+
+@media screen and (max-width: 1610px) {
+  .programs {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+}
 
 /* Tablet - Larger */
 
-/*@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1220px) {
   body {
     background: red;
   }
-}*/
+}
 
 /* Tablet - Smaller*/ 
 
-/*@media screen and (max-width: 786px) {
+@media screen and (max-width: 786px) {
   body {
     background: green;
   }
-}*/
+}
 
 /* Mobile */
 
-/*@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   body {
     background: blue;
   }
-}*/
+}
 
 
 
