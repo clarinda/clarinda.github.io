@@ -347,6 +347,9 @@ div {
 #full1:target {
   visibility: visible;
   opacity: 1;
+
+  width: auto;
+  height: auto;
 }
 
 #full2:target {
@@ -528,6 +531,9 @@ div {
 /* Mobile */
 
 @media screen and (max-width: 480px) {
+  .main-header {
+    margin-bottom: 0;
+  }
   h1 {
     font-size: 1.5em;
   }
@@ -539,6 +545,9 @@ div {
   }
   div {
     padding: 15px 25px;
+  }
+  nav {
+    bottom: -17px;
   }
   nav ul {
     font-size: 1em;
@@ -553,6 +562,10 @@ div {
   }
   .thumbnail {
     margin: 30px 16px;
+  }
+
+  .salutation {
+    font-size: 1.5em;
   }
 }
 
