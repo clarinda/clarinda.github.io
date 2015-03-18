@@ -16,7 +16,7 @@ a {
 }
 
 .clearfix {
-  clear: both;
+  clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;
 }
 
 /* Nav */
@@ -121,8 +121,8 @@ div {
 }
 
 .container1 {
-  max-width: 60%;
-  margin: 2.5% 20% 0;
+  max-width: 70%;
+  margin: 2.5% 15% 0;
 }
 
 .container2 {
@@ -554,6 +554,16 @@ div {
   }
   nav a {
     padding: 20px 11px;
+  }
+
+  .blocks {
+    padding: 0;
+  }
+  .container1 p {
+    font-size: .75em;
+  }
+  .blocks a {
+    font-size: .75em;
   }
 
   .gallery {
