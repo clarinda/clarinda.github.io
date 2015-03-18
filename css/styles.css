@@ -24,7 +24,10 @@ a {
 nav {
   text-align: right;
   padding: 10px 0;
-  margin: 280px 0 20px;
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+/*  margin: 280px 0 20px;*/
 }
 
 nav ul {
@@ -109,6 +112,7 @@ div {
 }
 
 .main-header {
+  position: relative;
   margin: 0 auto 30px;
 	padding: 40px 0 50px;
 	height: 400px; 
@@ -455,18 +459,36 @@ div {
     padding-left: 75px;
   }
 
-  /*.thumbnail {
-    margin: 30px auto;
-  }*/
-
+  .gallery {
+    width: 780px;
+  }
+  .thumbnail {
+    margin: 30px 28px;
+  }
 }
-
 
 /* Tablet - Smaller*/ 
 
 @media screen and (max-width: 786px) {
-  body {
-    background: green;
+  .main-header {
+    width: 90%;
+    height: 310px;
+}
+
+  div {
+    padding: 15px 50px;
+  }
+  .programs {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+
+  .gallery {
+    width: 476px;
+  }
+  .thumbnail {
+    margin: 30px 16px;
   }
 }
 
