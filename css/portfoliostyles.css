@@ -110,11 +110,18 @@ div {
 }
 
 .doc div {
-  padding: 0;
+  padding-top: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
 }
 
 .doc div img {
-	width: 100%;
+  box-shadow: 0 15px 20px -12px rgba(0,0,0, .7);
+  border-radius: 5px;
+
+  width: 100%;
+  height: auto;
 }
 
 .footer {
