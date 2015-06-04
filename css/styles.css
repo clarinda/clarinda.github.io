@@ -207,6 +207,9 @@ div {
 
 .programs:hover {
   -webkit-filter: grayscale(0);
+  -moz-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 
@@ -418,6 +421,9 @@ div {
 /* Caption - Last Frame */
 .thumbnail:hover p {
    -webkit-animation: slideInUp .5s forwards;
+   -moz-animation: slideInUp .5s forwards;
+   -o-animation: slideInUp .5s forwards;
+   animation: slideInUp .5s forwards;
 }
 
   @-webkit-keyframes slideInUp {
@@ -433,6 +439,49 @@ div {
     transform: translateY(0);
     opacity: 1;
   }
+
+    @-moz-keyframes slideInUp {
+  0% {
+    -moz-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    opacity: 0;
+  }
+
+  100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  @-o-keyframes slideInUp {
+  0% {
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    opacity: 0;
+  }
+
+  100% {
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  @keyframes slideInUp {
+  0% {
+    transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+
 }
 
 /* Media Queries ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
